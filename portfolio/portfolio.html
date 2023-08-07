@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script src="https://kit.fontawesome.com/da376acc78.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicia's Portfolio</title>
+  </head>
+  <body>
+    <!--TOP ANIMATION WITH ROCKET-->
+    <section class="sky">
+      <img src="img/mountains.png" alt="mountains" id="mountains" />
+      <img src="img/white-cloud.png" alt="cloud" id="cloud-one" />
+      <img src="img/white-cloud.png" alt="cloud" id="cloud-two" />
+      <img src="img/white-cloud.png" alt="cloud" id="cloud-three" />
+      <img src="img/white-cloud.png" alt="cloud" id="cloud-four" />
+      <img src="img/white-cloud.png" alt="cloud" id="cloud-five" />
+      <img src="img/pinkrocket.png" alt="rocket" id="rocket" />
+    </section>
+
+  
+    <main>
+      <!-------NAV BAR---------------->
+      <div class="container together">
+        <nav>
+          <img src="img/blacklogo.png" class="logo" />
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+           
+          </ul>
+        
+
+          <div class="dropdown">
+            <button type="button" class="hamburger dropdown-toggle" id="menu-btn" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button> 
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Home">Home</a></li>
+              <li><a class="dropdown-item" href="#About">About</a></li>
+              <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+              <li><a class="dropdown-item" href="#Projects">Projects</a></li>
+              <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+         
+       
+          <img src="img/moon.png" id="icon" />
+          <!-- HAMBURGER MENU-->
+    
+
+    </nav>
+    </div>
+
+  
+    
+      
+
+      <section class="header-box grid-col-2" id="Home">
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I'm Delicia Downer From London, United Kingdom</h1>
+        </div>
+        <div class="image-box">
+          <img src="img/shape.png" class="shape" />
+          <img src="img/pic1.png" class="header-pic" />
+        </div>
+      </section>
+     
+
+      <!---------------ABOUT ME------------>
+      <section id="about">
+        <div class="container" id="About">
+          <div class="row">
+            <div class="about-col-img">
+              <img src="img/laptop.png" class="laptop">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quisquam? Enim sed asperiores dignissimos corrupti vel error fugit at placeat fugiat aliquam sapiente, in quae voluptatem quas dolores. Consectetur, dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas quia sed deserunt omnis non nesciunt tenetur adipisci amet, esse ea repudiandae impedit nisi saepe? Quo ullam asperiores officia odio.</p>
+              <div class="tab-titles" id="Skills">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+              </div>
+              <!--TAB CONTENT ONE- SKILLS-->
+              <div class="tab-contents active-tab" id="skills">
+                <img src="img/html.png">
+                <img src="img/css.png" id="css">
+                <img src="img/js.png">
+                <img src="img/react.png">
+                <img src="img/git.png">
+              </div>
+              <!--TAB CONTENT TWO EXPERIENCE-->
+              <div class="tab-contents" id="experience">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem laboriosam sint voluptatum nihil earum quas natus tempora vero aliquam saepe distinctio excepturi, corporis hic eum nesciunt qui et aperiam temporibus?</p>
+              </div>
+              <!--TAB CONTENT THREE- CERTIFICATES-->
+              <div class="tab-contents" id="certificates">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde temporibus earum laudantium, omnis nisi repellendus illo ad! Dolores cum neque temporibus quidem non eligendi, obcaecati repudiandae odit beatae blanditiis.</p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </section>
+      <!--SERVICES--------------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="service-list">
+            <div>
+              <i class="fa-sharp fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum delectus facere veniam hic ad dolorum maxime aut eum nemo nulla quasi et ducimus vel dolor, velit dicta accusamus. Ratione!</p>
+            </div>
+            <div>
+              <i class="fa-sharp fa-solid fa-crop-simple"></i>
+              <h2>UI/UX Designer</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum delectus facere veniam hic ad dolorum maxime aut eum nemo nulla quasi et ducimus vel dolor, velit dicta accusamus. Ratione!</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store"></i>
+              <h2>App Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum delectus facere veniam hic ad dolorum maxime aut eum nemo nulla quasi et ducimus vel dolor, velit dicta accusamus. Ratione!</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+
+      <!-----------PORTFLIO/MY WORK------------->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title" id="Projects">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="img/phone1.jpeg" >
+              <div class="layer">
+                <h3>Coca-Cola Landing Page</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro ullam vitae dolorum laboriosam tempora sunt ex quod, nam dolores ipsam labore dolorem quisquam eaque, aperiam totam repudiandae.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="img/phone2.jpeg" >
+              <div class="layer">
+                <h3>Coca-Cola Landing Page</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro ullam vitae dolorum laboriosam tempora sunt ex quod, nam dolores ipsam labore dolorem quisquam eaque, aperiam totam repudiandae.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="img/phone3.jpeg" >
+              <div class="layer">
+                <h3>Starbucks Landing Page</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro ullam vitae dolorum laboriosam tempora sunt ex quod, nam dolores ipsam labore dolorem quisquam eaque, aperiam totam repudiandae.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            
+            
+            </div>
+
+            <a href="#portfolio" class="btn btn-1" onClick="showOrHide()">See More</a>
+          </div>
+
+          <div id="hidden">
+            <div class="container">
+            <div class="work-list">
+              <div class="work">
+                <img src="img/phone1.jpeg" >
+                <div class="layer">
+                  <h3>Coca-Cola Landing Page</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro ullam vitae dolorum laboriosam tempora sunt ex quod, nam dolores ipsam labore dolorem quisquam eaque, aperiam totam repudiandae.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="img/phone2.jpeg" >
+                <div class="layer">
+                  <h3>Coca-Cola Landing Page</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro ullam vitae dolorum laboriosam tempora sunt ex quod, nam dolores ipsam labore dolorem quisquam eaque, aperiam totam repudiandae.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="img/phone3.jpeg" >
+                <div class="layer">
+                  <h3>Starbucks Landing Page</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum vero asperiores porro ullam vitae dolorum laboriosam tempora sunt ex quod, nam dolores ipsam labore dolorem quisquam eaque, aperiam totam repudiandae.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              
+              
+             
+              
+            </div>
+           
+          </div>
+          </div> 
+        
+        </div>
+
+        <!-----------CONTACT SECTION------------------->
+        <section id="contact">
+          <div class="container" id="Contact">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> delicia-downer@outlook.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> 07388871880</p>
+                <div class="socials">
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="img/mycv.pdf" download class="btn btn-2">Download CV</a>
+              </div>
+              <div class="contact-right">
+                <form>
+                  <input type= "text" name="Name" placeholder="Your Name" required>
+                  <input type="Email" name="email" placeholder="Your Name" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                  <button type="submit" class="btn btn-2 btn-3">Submit</button>
+                </form >
+              </div>
+
+            </div>
+
+          </div>
+  
+        </section>
+        <div class="copyright">
+          <p>Copyright © Delicia</p>
+        </div>
+
+    
+
+    </main>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
